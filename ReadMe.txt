@@ -21,6 +21,10 @@ It gives you the following functionality:
 	  
 2. Slider layout - Slider show of your tweets that scrolls horizontally, one after another...
 
+= Plugin Info =
+
+* Developed by [Miodrag Rasic] & [NetScripter](http://netscripter.me/)
+
 == Installation ==
 
  - From The WordPress Dashboard
@@ -73,7 +77,3 @@ Click \"save\" button, and your Tweets are on your WordPress blog!
 == Changelog ==
 
 This is completely brand new version of this plugin.
-
-= Plugin Info =
-
-* Developed by [Miodrag Rasic] & [NetScripter](http://netscripter.me/)
