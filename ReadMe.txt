@@ -63,6 +63,9 @@ Usage:
 1. NS Tweet Settings
 2. Twitter API Settings
 3. Widget Settings
+4. List View
+5. Slider View 1
+6. Slider View 2
 
 == Changelog ==
 This is completely brand new version of this plugin.
