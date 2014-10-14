@@ -1,0 +1,242 @@
+/*
+* Plugin Name: NS Tweet
+* Plugin URI: http://netscripter.me
+* Author: NetScripter
+* Author URI: http://netscripter.me
+* License - GNU/GPL V2 or Later
+* Description: Twitter Widget for your Site.
+* Version: 1.0
+*/
+
+/* List Layout */
+.list-layout .tweet-item {
+  border-bottom:1px dashed #777;
+  margin:0;
+  padding:10px 0;
+  font-size: 12px;
+  color: #777;
+  line-height: 1.5;  
+}
+.list-layout .tweet-item:first-child {
+  padding-top: 0;
+}
+.list-layout .tweet-item img.tweet-avatar {
+  display:block;
+  float:left;
+  margin:7px 5px 0 0;
+  padding: 3px;
+  border: 1px solid #999;
+  -webkit-border-radius: 7px;
+     -moz-border-radius: 7px;
+          border-radius: 7px;
+}
+.list-layout .tweet-item .date,
+.list-layout .tweet-item .source {
+  font-size:10px;
+  line-height: normal;
+}
+.list-layout .tweet-item .date {
+  float:left;
+}
+.list-layout .tweet-item .source {
+  float:right;
+}
+a.followme {
+  background: #40a8ff url(../images/followme.png) no-repeat 0 3px;
+  font-size: 11px;
+  color: #fff !important;
+  height: 30px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 5px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 6px 12px 0 30px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  border: 2px solid #99ccff;
+  -webkit-transition: background-color 0.3s linear;
+     -moz-transition: background-color 0.3s linear;
+       -o-transition: background-color 0.3s linear;
+          transition: background-color 0.3s linear;
+}
+a.followme:hover {
+  background: #64b9ff url(../images/followme.png) no-repeat 0 3px;
+}
+a.tweet_url:hover {
+  
+}
+a.tweet_url {
+  font-size: 12px;
+  color: #40a8ff !important;
+}
+
+/* Scroller Layout */
+.layout-scroller .tweet-item img.tweet-avatar {
+  display:block;
+  float:left;
+  margin:0 10px 0 0;
+}
+.layout-scroller .tweet-item .date,
+.layout-scroller .tweet-item .source {
+  font-size:10px;
+  line-height: normal;
+}
+.layout-scroller .tweet-item .date {
+  float:left;
+}
+.layout-scroller .tweet-item .source {
+  float:right;
+}
+
+/*Carousel Layout*/
+
+.tweet.carousel {
+  position: relative;
+  padding-bottom: 40px;
+  border: 0px solid #ccc;
+  -webkit-border-radius: 7px;
+     -moz-border-radius: 7px;
+          border-radius: 7px;
+}
+.tweet .carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tweet .carousel-inner > .item{
+  width: 85%;
+  margin: 0 auto;
+  font-size: 11px;
+}
+.tweet .carousel-inner > .item p.tweet-content{
+  color: #777;
+  border-bottom: 1px dashed #ccc;
+}
+
+
+.tweet .carousel-inner > .item .tweet-avatar{
+  margin-bottom: 10px;
+  margin: 5px 0 0 0;
+  padding: 3px;
+  border: 1px solid #999;
+  -webkit-border-radius: 7px;
+     -moz-border-radius: 7px;
+          border-radius: 7px;
+}
+
+.tweet .carousel-inner > .item a.followme{
+  display: inline-block;
+  text-decoration: none;
+  margin: 0;
+  font-weight: 300;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #40a8ff;
+  color: #fff;
+  white-space: nowrap;
+  padding: 6px 12px 0 30px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  border-color: #99ccff;
+  -webkit-transition: background-color 0.3s linear;
+     -moz-transition: background-color 0.3s linear;
+       -o-transition: background-color 0.3s linear;
+          transition: background-color 0.3s linear;
+}
+
+.tweet .carousel-inner > .item a.followme:hover{
+  background-color: #64b9ff;
+}
+
+.tweet .carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: .6s ease-in-out left;
+  transition: .6s ease-in-out left;
+}
+
+.tweet .carousel-inner > .active,
+.tweet .carousel-inner > .next,
+.tweet .carousel-inner > .prev {
+  display: block;
+}
+.tweet .carousel-inner > .active {
+  left: 0;
+}
+.tweet .carousel-inner > .next,
+.tweet .carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.tweet .carousel-inner > .next {
+  left: 100%;
+}
+.tweet .carousel-inner > .prev {
+  left: -100%;
+}
+.tweet .carousel-inner > .next.left,
+.tweet .carousel-inner > .prev.right {
+  left: 0;
+}
+.tweet .carousel-inner > .active.left {
+  left: -100%;
+}
+.tweet .carousel-inner > .active.right {
+  left: 100%;
+}
+
+.tweet .carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+.tweet .carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 5px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #99ccff;
+  border-radius: 0;
+}
+.tweet .carousel-indicators .active {
+  width: 12px;
+  height: 6px;
+  margin: 0;
+  background-color: #99ccff;
+}
+.tweet-source {
+  color: #777;
+}
+.tweet-source a {
+  color: #99ccff !important;
+}
+.tweet-date a {
+  color: #99ccff !important;
+}
+.tweet-alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ebccd1;
+  border-radius: 4px;
+  background-color: #f2dede;
+  color: #a94442;
+}
