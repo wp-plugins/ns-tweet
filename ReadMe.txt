@@ -1,6 +1,6 @@
 === NS Tweet ===
 Contributors: Miodrag Rasic
-Tags: netscripter, tweet, twitter, tweets, slider
+Tags: netscripter, tweet, twitter, tweets, widget, slider
 Requires at least: 3.0
 Tested up to: 4
 Stable tag: trunk
@@ -10,19 +10,19 @@ License URI: http://www.gnu.org/licenses/
 NS Tweet Plugin let you import and show your Tweets on your WordPress blog from your Twitter account in a form of sidebar or footer widget.
 
 == Description ==
- NS Tweet Plugin let you import and show your Tweets on your WordPress blog from your Twitter account in a form of sidebar or footer widget,
  
- and it gives you the following functionality:
+It gives you the following functionality:
 
-    - It will show your tweets on your WordPress blog, with options to show your Twitter\'s Avatar, date and source of your tweets.
+- It will show your tweets on your WordPress blog, with options to show your Twitter\'s Avatar, date and source of your tweets.
 	
-	- You can choose between two different layouts of your widget:
+- You can choose between two different layouts of your widget:
 	
-	  1. List layout - Standard show of your tweets one below another...
+1. List layout - Standard show of your tweets one below another...
 	  
-	  2. Slider layout - Slider show of your tweets that scrolls horizontally, one after another...
+2. Slider layout - Slider show of your tweets that scrolls horizontally, one after another...
 
 == Installation ==
+
  - From The WordPress Dashboard
 
     Navigate to the \'Add New\' in the plugins dashboard
@@ -51,15 +51,18 @@ NS Tweet Plugin let you import and show your Tweets on your WordPress blog from 
 	
 	NOTICE: under \"Twitter API Settings\" title you can find \"Twitter API Help\" with the link to detailed explanation of usage of Twitter Consumer Key and Secret. 
 
-Usage:
+- Usage:
 
-    On the Appearance dashboard choose Widgets. Find \"NS Tweet\" on the left side where the widgets are. Click on it and choose the widget area
+On the Appearance dashboard choose Widgets. Find \"NS Tweet\" on the left side where the widgets are. Click on it and choose the widget area
  
-    you would like to place NS Tweet widget. Then click on the small arrow on the right from the \"NS Tweet\" title, a dropdown menu with 
+you would like to place NS Tweet widget. Then click on the small arrow on the right from the \"NS Tweet\" title, a dropdown menu with 
 	
-	NS Tweet options will appear. You can then fill in the informations and choose appropriate options as you like. Click \"save\" button, and your Tweets are on your WordPress blog!
+NS Tweet options will appear. You can then fill in the informations and choose appropriate options as you like.
+
+Click \"save\" button, and your Tweets are on your WordPress blog!
 
 == Screenshots ==
+
 1. NS Tweet Settings
 2. Twitter API Settings
 3. Widget Settings
@@ -68,4 +71,9 @@ Usage:
 6. Slider View 2
 
 == Changelog ==
+
 This is completely brand new version of this plugin.
+
+= Plugin Info =
+
+* Developed by [Miodrag Rasic] & [NetScripter](http://netscripter.me/)
