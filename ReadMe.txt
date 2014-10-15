@@ -74,10 +74,6 @@ Click \"save\" button, and your Tweets are on your WordPress blog!
 
 == Frequently Asked Questions ==
 
-= Can I use ? =
-
-Because when a larger font size is set, the tag text does not fit into the tag image.
-
 = Does the plugin support localization? =
 
 Yes, you can find .POT file in a folder "languages".
