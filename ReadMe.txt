@@ -57,11 +57,9 @@ It gives you the following functionality:
 
 - Usage:
 
-On the Appearance dashboard choose Widgets. Find \"NS Tweet\" on the left side where the widgets are. Click on it and choose the widget area
- 
-you would like to place NS Tweet widget. Then click on the small arrow on the right from the \"NS Tweet\" title, a dropdown menu with 
+On the Appearance dashboard choose Widgets. Find \"NS Tweet\" on the left side where the widgets are. Click on it and choose the widget area you would like to place NS Tweet widget. Then click on the small arrow on the right from the \"NS Tweet\" title, a dropdown menu with 
 	
-NS Tweet options will appear. You can then fill in the informations and choose appropriate options as you like.
+"NS Tweet options" will appear. You can then fill in the informations and choose appropriate options as you like.
 
 Click \"save\" button, and your Tweets are on your WordPress blog!
 
@@ -73,6 +71,18 @@ Click \"save\" button, and your Tweets are on your WordPress blog!
 4. List View
 5. Slider View 1
 6. Slider View 2
+
+== Frequently Asked Questions ==
+
+= Can I use ? =
+
+Because when a larger font size is set, the tag text does not fit into the tag image.
+
+= Does the plugin support localization? =
+
+Yes, you can find .POT file in a folder "languages".
+
+Please send your localization files (.mo и .po) to admin@netscripter.me
 
 == Changelog ==
 
