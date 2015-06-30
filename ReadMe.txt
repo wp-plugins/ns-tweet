@@ -2,7 +2,7 @@
 Contributors: Miodrag Rasic
 Tags: netscripter, tweet, twitter, tweets, widget, slider
 Requires at least: 3.0
-Tested up to: 4
+Tested up to: 4.2.2
 Stable tag: trunk
 License: GNU General Public License
 License URI: http://www.gnu.org/licenses/
