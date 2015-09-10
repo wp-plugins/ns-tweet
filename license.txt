@@ -1,6 +1,6 @@
 NS Tweet Plugin - LICENCE
 
-    Copyright (C) 2014 by NetScripter.me
+    Copyright (C) 2014 by NetScripter.info
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -15,5 +15,5 @@ NS Tweet Plugin - LICENCE
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
-    If you like the Plugin, feel free to link to our WebSite at http://netscripter.me - using text:
+    If you like the Plugin, feel free to link to our WebSite at http://netscripter.info - using text:
 	"NetScripter Wordpress Goodies"

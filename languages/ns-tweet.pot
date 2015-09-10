@@ -96,7 +96,7 @@ msgstr ""
 #. Plugin URI of the plugin/theme
 #. #-#-#-#-#  plugin.pot (NS Tweet 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
-msgid "http://netscripter.me"
+msgid "http://netscripter.info"
 msgstr ""
 
 #. Description of the plugin/theme

@@ -1,9 +1,9 @@
 <?php
 /*
 * Plugin Name: NS Tweet
-* Plugin URI: http://netscripter.me
+* Plugin URI: http://netscripter.info
 * Author: NetScripter
-* Author URI: http://netscripter.me
+* Author URI: http://netscripter.info
 * License - GNU/GPL V2 or Later
 * Description: Twitter Widget for your Site with Slider option.
 * Version: 1.0

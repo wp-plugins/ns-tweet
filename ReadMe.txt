@@ -23,7 +23,7 @@ It gives you the following functionality:
 
 = Plugin Info =
 
-* Developed by [Miodrag Rasic] & [NetScripter](http://netscripter.me/)
+* Developed by [Miodrag Rasic] & [NetScripter](http://netscripter.info/)
 
 == Installation ==
 
@@ -78,7 +78,7 @@ Click \"save\" button, and your Tweets are on your WordPress blog!
 
 Yes, you can find .POT file in a folder "languages".
 
-Please send your localization files (.mo и .po) to admin@netscripter.me
+Please send your localization files (.mo и .po) to admin@netscripter.info
 
 == Changelog ==
 
